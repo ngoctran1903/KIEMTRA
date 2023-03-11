@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐE_KT_TK_3</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px auto;
+    }
+
+    .wrapper {
+        padding: 10px;
+        width: 810px;
+
+    }
+
+    #menu {
+        width: 810px;
+        height: 90px;
+        background-color: #294e79;
+        position: relative;
+    }
+
+    .hoa {
+        position: absolute;
+        top: -1px;
+    }
+
+    #text_menu {
+        position: absolute;
+        top: 20px;
+        height: 50px;
+        left: 60px;
+        color: aliceblue;
+        font-size: 12px;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #right {
+        float: right;
+        padding: 10px;
+    }
+
+    #content {
+        width: 810px;
+        height: 450px;
+    }
+
+    #Item_menu {
+        display: flex;
+        width: 500px;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+    }
+
+    .item {
+        padding: 8px;
+        background-color: #3d73b1;
+        float: right;
+    }
+
+    #left1 {
+        width: 550px;
+        float: left;
+    }
+
+    #left12 {
+        width: 310px;
+        float: left;
+        padding: 10px 30px 20px 5px;
+        text-align: justify;
+
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #left13 {
+        width: 200px;
+        float: right;
+        font-size: 19px;
+        color: dimgray;
+    }
+
+    #left_content {
+        width: 550px;
+        height: 400px;
+        float: left;
+        background-color: #ffffff;
+    }
+
+    #right_content {
+        background-color: #f9f9f9;
+        width: 250px;
+        float: right;
+        padding: 3px;
+        margin-top: 35px;
+        text-align: justify;
+    }
+
+    .flower {
+        padding: 4px;
+        border: 1px solid gray;
+        margin: 10px;
+    }
+
+    #p1-left13 {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: cadetblue;
+    }
+
+    #p2-left13 {
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: cadetblue;
+    }
+
+    #p3-left13 {
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: cadetblue;
+    }
+
+    .p-left12 {
+        margin-bottom: 10px;
+        color: red;
+        text-shadow: 8px 8px 5px green;
+        font-weight: 500;
+    }
+
+    .p_left_content {
+        padding: 25px 50px 10px 10px;
+        border-bottom: 1px dashed black;
+        font-size: 20px;
+        color: dimgray;
+    }
+
+    .p-left13 {
+        padding: 10px 0px 10px 5px;
+        border-bottom: 1px dashed black;
+    }
+
+    .p1_right_content {
+        padding: 15px 50px 10px 10px;
+        border-bottom: 1px dashed black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: dimgray;
+        font-size: 20px;
+    }
+
+    .p2_right_content {
+        padding: 5px 20px 0px 20px;
+    }
+
+    .b1 {
+        margin: 10px;
+        width: 60px;
+        height: 30px;
+    }
+
+    table input {
+        width: 140px;
+        height: 20px;
+    }
+
+    .readmore {
+        color: #1c3451;
+        font-weight: bold;
+        margin-right: 30px;
+        float: right;
+        padding-top: 20px;
+        text-decoration: none;
+        padding-bottom: 30px;
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+        height: 30px;
+        background-color: #1c3451;
+        color: aliceblue;
+        line-height: 30px;
+    }
+
+    #text-footer {
+        color: #3d73b1;
+    }
+
+    #site-right {
+        border: 1px solid cornflowerblue;
+        background-color: #1c3451;
+        color: aliceblue;
+    }
+
+    #go-right {
+        border: 1px solid cornflowerblue;
+        background-color: #1c3451;
+        color: azure;
+    }
+
+    label {
+        font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div id="menu">
+            <div id="text_menu">
+                <h2>FlowerBox 360</h2>
+                <p>...to get your daily dose of luxury roses!</p>
+            </div>
+            <img class="Hoa" src="/IMG/hoa_logo.png" alt="" height="80px" width="60px">
+            <div id="right">
+                <input id="site-right" type="text" value="Search the site...">
+                <button id="go-right" type="submit">GO</button>
+            </div>
+            <div id="Item_menu">
+                <div class="item">Home</div>
+                <div class="item">Promotion</div>
+                <div class="item">Gift Baskets</div>
+                <div class="item">Flower Services</div>
+                <div class="item">About</div>
+            </div>
+        </div>
+
+
+        <div id="content">
+            <div id="left_content">
+                <p class="p_left_content"> Why Not Contact Us Today!</p>
+                <div id="left1">
+
+                    <div id="left12">
+                        <p class="p-left12">For FlowerBox 360, shoppers, that means, not aniy can. you send your fnends
+                            and loved ones the highest quality flamers found on online, but that you can do so at a
+                            great value.</p>
+                        <form action="">
+                            <table>
+                                <tr>
+                                    <td><label for="name">Name:</label></td>
+                                    <td><label for="email">Email:</label></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" name="" id="name"></td>
+                                    <td><input type="email" name="" id="email"></td>
+                                </tr>
+                                <tr>
+                                    <td> <label for="tel">Telephone:</label></td>
+                                    <td> <label for="sub">Subject:</label></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="tel" name="" id="tel"></td>
+                                    <td><input type="text" name="" id="sub"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"> <label for="mess">Messgae:</label></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><textarea name="" id="mess" cols="41" rows="4"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="b1" type="button" value="Submit"><input class="b1" type="button"
+                                            value="Reset"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <div id="left13">
+                        <p class="p-left13">FlowerBox 360 Info!</p>
+                        <p id="p1-left13">Operating Hours:
+                            Monday-Friday: 9.00am-5.00pm.
+                            Saturday:9.00am-1,00pm.
+                            Sunday: Closed (No Deliveries)
+                            ORDER ONLINE 24/7</p>
+                        <p id="p2-left13">Software Engineering Dept.
+                            Information Technology Falcuty
+                            First Floor, H Building</p>
+                        <p id="p3-left13">12 Nguyen Van Bao St., Ward 4
+                            Go Vap District
+                            Ho Chi Minh City
+                            Tel: 0283 8940 390
+                            Fax: 0283.9940 954</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right_content">
+                <p class="p1_right_content">Discounts & Specials</p>
+                <img class="flower" src="/IMG/flower.png" alt="" height="80px" width="200px">
+                <p class="p2_right_content">For FlowerBox 360, shoppers, that means, not aniy can. you send your fnends
+                    and loved ones the highest quality flamers found on online, but that you can do so at a great value.
+                </p>
+                <a class="readmore" href="">Read More ></a>
+            </div>
+
+        </div>
+        <footer>
+            <p><span>Copyright &#169; 2017 - All Right Reserved - </span>
+                <span id="text-footer">Software Engieering Department - Industrial University of Ho Chi Minh City</span>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
